@@ -1,0 +1,20 @@
+# Read Text Files - .gitignore file
+
+# Omit contents of bin and obj
+src/*/bin/*
+src/*/obj/*
+test/*/bin/*
+test/*/obj/*
+
+# Omit Mac file
+.DS_Store
+
+# Omit Project Lock Dependencies
+src/*/project.lock.json
+
+# Omit Visual Studio Code Config
+.vscode/*
+
+# Omit Typings
+typings/*
+typings.json
